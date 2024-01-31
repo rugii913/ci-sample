@@ -1,12 +1,11 @@
-package nbc.docker.sampleapp
+package nbcdocker.learning.cicd
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.context.annotation.Bean
 
 @SpringBootApplication
-class SampleappApplication
+class CicdApplication
 
 fun main(args: Array<String>) {
-    runApplication<SampleappApplication>(*args)
+	runApplication<CicdApplication>(*args)
 }
